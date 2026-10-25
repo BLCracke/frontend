@@ -6,6 +6,8 @@ import Services from './pages/Services.jsx'
 import Products from './pages/Products.jsx'
 import Research from './pages/Research.jsx'
 import Contact from './pages/Contact.jsx'
+import Privacy from './pages/Privacy.jsx'
+import Terms from './pages/Terms.jsx'
 import NotFound from './pages/NotFound.jsx'
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/research" element={<Research />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/terms" element={<Terms />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
